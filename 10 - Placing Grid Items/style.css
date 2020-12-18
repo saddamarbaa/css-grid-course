@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item1 {
+  grid-column: 1 / 5;
+  grid-row: 1/5;
+  /* grid-row: 1/ span 3 */
+}
+
+.poop {
+  /* grid-column: span 2; */
+  /* meaning
+	grid-column-start: 2;
+	grid-column-end: 5;*/
+  grid-column: 1/4;
+}
+
+.item21 {
+  /* meaning
+	grid-column-start: 3;
+	grid-column-end: 5;*/
+  grid-column: 3/6;
+  /* same as above */
+  grid-column: 3 span 3;
+}
+
+.item30 {
+  /* start from and go until the last */
+  grid-column: 1 /-1;
+}
