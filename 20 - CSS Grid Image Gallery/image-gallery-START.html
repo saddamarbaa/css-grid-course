@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Grid Image Gallery!</title>
 </head>
-
 <body>
 
   <div class="overlay">
@@ -19,7 +17,6 @@
 
   <section class="gallery">
   </section>
-
 
   <style>
     * {
@@ -82,34 +79,6 @@
   </style>
 
   <script>
-    const gallery = document.querySelector('.gallery');
-    const overlay = document.querySelector('.overlay');
-    const overlayImage = overlay.querySelector('img');
-    const overlayClose = overlay.querySelector('.close');
-
-    function generateHTML([h, v]) {
-      return `
-      <div class="item h${h} v${v}">
-        <img src = "images/${radndomNumber(12)}.jpg">
-        <div class="item__overlay">
-          <button> View→ </button>
-        </div>
-      </div>
-      `;
-    }
-
-    function radndomNumber(limit) {
-      return Math.floor(Math.random() * limit) + 1;
-    }
-
-    const digits = Array.from({ length: 50 }, () =>
-      [radndomNumber(4), radndomNumber(4)]);
-    // console.log(digits);
-
-    const html = digits.map(generateHTML).join('');
-    // console.log(html);
-    gallery.innerHTML = html;
   </script>
 </body>
-
 </html>
