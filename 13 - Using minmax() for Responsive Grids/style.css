@@ -1,9 +1,0 @@
-.container {
-  display: grid;
-  grid-gap: 20px;
-  border: 10px solid var(--yellow);
-  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
-  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
-  grid-template-columns: Fit-content(200px) 400px 350px;
-
-}
