@@ -5,6 +5,6 @@ Learn CSS Grid with Wes Bos in 25 pretty good videos From fundamentals to Real W
 
 Flow [the course playlist on YouTube] :  (https://www.youtube.com/watch?v=6dzzVGXVflI&list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG&index=24)
 
-## Flow [CSS Grid in 45 Minutes!] : https://youtu.be/DCZdCKjnBCs
+Flow [CSS Grid in 45 Minutes!] : https://youtu.be/DCZdCKjnBCs
 
 ## Projects
